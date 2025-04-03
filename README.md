@@ -6,6 +6,12 @@
 
 Cursor是一款AI辅助编程工具，它使用规则文件来指导其行为。本项目的目标是收集、整理和标准化这些规则文件，使开发者能够更有效地利用Cursor进行开发工作。
 
+参考文章教程：
+[Cursor Rules 进阶指南：打造企业级多语言开发规范](https://mp.weixin.qq.com/s/rfanrMtMMuyUTwsDYmlxSg)
+
+[Cursor Rules 最佳实践总结](https://mp.weixin.qq.com/s/-J_LwfwH9rmFy4dzEy0RXg)
+
+
 ## 当前支持的规则类型
 
 ### 通用规则
