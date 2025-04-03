@@ -75,3 +75,4 @@ temp/
 .stylelintcache
 .cache/
 .parcel-cache/
+.history/

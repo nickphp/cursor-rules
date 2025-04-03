@@ -1,15 +1,42 @@
 # Cursor Rules 整理工具
 
-这个项目用于整理和收集来自不同项目的Cursor规则文件，目前起步阶段，后续将扩展到更多编程语言。
+这个项目用于整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。
 
 ## 项目简介
 
 Cursor是一款AI辅助编程工具，它使用规则文件来指导其行为。本项目的目标是收集、整理和标准化这些规则文件，使开发者能够更有效地利用Cursor进行开发工作。
 
-## 当前支持的编程语言
+## 当前支持的规则类型
 
+### 通用规则
+- **一般性编程规则**
+- **Git相关规则**
+- **Git Flow工作流规则**
+- **文档编写规则**
+
+### 编程语言
 - **Python**
-- **Vue**
+- **Java**
+- **TypeScript**
+- **Swift**
+- **Go**
+- **C++**
+
+### Web框架
+- **React**
+- **Vue.js**
+- **Next.js**
+- **Tailwind CSS**
+
+### 后端框架
+- **Django**
+- **Flask**
+- **FastAPI**
+- **Spring**
+
+### 移动开发框架
+- **Flutter**
+- **SwiftUI**
 
 ## 功能特点
 
@@ -29,19 +56,28 @@ Cursor是一款AI辅助编程工具，它使用规则文件来指导其行为。
 
 ```
 cursor-rules/
-├── python/              # Python项目的Cursor规则
-│   ├── django/          # Django框架相关规则
-│   ├── flask/           # Flask框架相关规则
-│   └── fastapi/         # FastAPI框架相关规则
-├── javascript/          # JavaScript项目的规则
-│   ├── react/           # React框架相关规则
-│   └── node/            # Node.js相关规则
-├── java/                # Java项目的规则
-│   └── spring/          # Spring框架相关规则
-├── go/                  # Go项目的规则
-├── rust/                # Rust项目的规则
-├── vue/                 # Vue框架相关规则
-└── templates/           # 规则模板
+├── common/              # 通用规则
+│   ├── general.mdc      # 一般性编程规则
+│   ├── git.mdc          # Git相关规则
+│   ├── gitflow.mdc      # Git Flow工作流规则
+│   └── document.mdc     # 文档编写规则
+├── languages/           # 编程语言特定规则
+│   ├── python.mdc       # Python语言规则
+│   ├── java.mdc         # Java语言规则
+│   ├── typescript.mdc   # TypeScript语言规则
+│   ├── swift.mdc        # Swift语言规则
+│   └── go.mdc          # Go语言规则
+├── frameworks/          # 框架相关规则
+│   ├── django.mdc       # Django框架规则
+│   ├── flask.mdc        # Flask框架规则
+│   ├── fastapi.mdc      # FastAPI框架规则
+│   ├── spring.mdc       # Spring框架规则
+│   ├── react.mdc        # React框架规则
+│   ├── vuejs.mdc        # Vue.js框架规则
+│   ├── nextjs.mdc       # Next.js框架规则
+│   ├── flutter.mdc      # Flutter框架规则
+│   ├── swiftui.mdc      # SwiftUI框架规则
+│   └── tailwind.mdc     # Tailwind CSS规则
 ```
 
 ## 贡献指南
