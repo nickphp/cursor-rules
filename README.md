@@ -1,4 +1,9 @@
+
+# 项目fork 自 flyeric0212/cursor-rules
+
 # Cursor Rules 整理工具
+
+
 
 这个项目用于整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。
 
